@@ -3,7 +3,7 @@ layout: post
 permalink: /tableau-introduction/
 title: '대표 BI 플랫폼, 태블로 소개'
 date: 2020-08-15 17:20:00 +09:00
-feature: 'img/posts/04/thumbnail.jpg'
+feature: 'img/posts/04/thumbnail01.png'
 categories:
   - Solution
 tags:

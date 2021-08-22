@@ -3,7 +3,7 @@ layout: post
 permalink: /dashboard-introduction/
 title: '대시보드 기업활용 사례'
 date: 2020-08-15 11:20:00 +09:00
-feature: 'img/posts/03/thumbnail.png'
+feature: 'img/posts/03/thumbnail01.png'
 categories:
   - Insight
 tags:
