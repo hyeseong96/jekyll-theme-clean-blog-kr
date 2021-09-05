@@ -1,12 +1,12 @@
 title:              "Hseong"
-tagline:            "디지털마케팅 데이터 활용 및 시각화 예시"
+tagline:            "Exploring Digital Marketing"
 email:              "carolina9684@gmail.com"
-description:        "디지털 마케팅 업무에서 얻는 인사이트 소개와 함께 공부하는 데이터 시각화"
+description:        "디지털마케팅 데이터 활용 및 시각화"
 author:             "혜성"
 baseurl:            "/"
 url:                "https://hseong.co.kr/"
 locale:             "ko_KR"
-thumbnail:          "/img/thumbnailblog.jpg"
+thumbnail:          "/img/blog-thumbnail.png"
 
 # Social Profiles
 instagram_username: instagram_northstar_met
