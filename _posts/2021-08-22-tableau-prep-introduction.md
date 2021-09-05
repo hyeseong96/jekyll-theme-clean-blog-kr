@@ -3,7 +3,7 @@ layout: post
 permalink: /tableau-prep-introduction/
 title: 'Tableau prep으로 데이터 불러오기'
 date: 2020-08-22 13:20:00 +09:00
-feature: 'img/posts/05/tableauprep-01.png'
+feature: '/img/posts/05/tableauprep-01.png'
 categories:
   - Solution
 tags:

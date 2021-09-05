@@ -3,7 +3,7 @@ layout: post
 permalink: /tableau-data-source/
 title: '대시보드 구축위한 데이터소스 구하기'
 date: 2021-09-05 17:00:00 +09:00
-feature: 'img/posts/06/datasource.png'
+feature: '/img/posts/06/datasource.png'
 categories:
   - Insight
 tags:
