@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://hseong.co.kr/sitemap.xml
+#DaumWebMasterTool:a426230bf84affe23ead6e6ceea2b09e96c692f00f75d29b7146519c2f1c8ea2:yW+jE+HZqfx5FHikzuVRfw==
