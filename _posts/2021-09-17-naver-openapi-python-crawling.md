@@ -91,7 +91,7 @@ Client ID와 Secret code 발급하기
 ##### 1) display 개수 증가
 
 검색 결과 수를 100개로 늘리는 코드입니다.  
-각 요 변수에 대한 설명은 네이버 developers 페이지에도 자세히 소개되어 있습니다.
+각 요청 변수에 대한 설명은 네이버 developers 페이지에도 자세히 소개되어 있습니다.
 
 ![code01](/img/posts/07/displaycode.png)
 
