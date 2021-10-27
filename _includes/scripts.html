@@ -84,12 +84,12 @@
 {% endif %}
 
 
-  <script>
+  <script> // gtm 스크립트
     var view_item = function (){
-      var title = document.querySelector('h1').innerText;
+      var title = document.title;
       dataLayer.push({
         'event' : 'view_item',
-        'h1' : title
+        'content_name' : title
       });
     };
 
