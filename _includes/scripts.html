@@ -82,3 +82,18 @@
     });
   </script>
 {% endif %}
+
+
+  <script>
+    var view_item = function (){
+      var title = document.querySelector('h1').innerText;
+      dataLayer.push({
+        'event' : 'view_item',
+        'h1' : title
+      });
+    };
+
+    var content = document.querySelectorAll('post-preview');
+    content.addEventListener('click', view_item);
+
+  </script>
