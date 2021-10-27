@@ -86,14 +86,14 @@
 
   <script> // gtm 스크립트
     var view_item = function (){
-      var title = document.title;
+      var title = document.getElementsByTagName('h1')[0].innerText;
       dataLayer.push({
         'event' : 'view_item',
-        'content_name' : title
+        'title' : title
       });
     };
 
     var content = document.querySelectorAll('post-preview');
-    content.addEventListener('click', view_item);
+    content.addEventListener('load', view_item);
 
   </script>
