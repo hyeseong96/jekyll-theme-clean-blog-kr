@@ -1,5 +1,20 @@
 <head>
 
+  <!-- GTM 과제 -->
+  <script>
+        var view_item = function (){
+          var postTitle = document.getElementsByTagName('h1')[0].innerText;
+          dataLayer.push({
+            'event' : 'view_item',
+            'title' : postTitle
+          });
+        };
+
+        var content = document.getElementsByTagName('h1')[0];
+        content.addEventListener('load', view_item);
+</script>
+    <!-- GTM 과제 끝 -->
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
