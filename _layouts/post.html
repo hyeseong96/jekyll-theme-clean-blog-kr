@@ -51,3 +51,20 @@ layout: default
     </div>
   </article>
   {% include disqus.html %}
+
+
+  <!-- GTM 과제 -->
+
+    <script>
+      var view_item = function(){
+        dataLayer.push = ({
+          'event' : 'view_item'
+        });
+      };
+
+      var article = document.querySelectorAll('.article');
+      for (var articleName of article){
+       articleName.addEventListener('click', view_item)
+      };
+    </script>
+    <!-- GTM 과제 -->
