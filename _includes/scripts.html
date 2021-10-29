@@ -85,15 +85,9 @@
 
 
   <script> // gtm 스크립트
-    var view_item = function (){
-      var postTitle = document.getElementsByTagName('h1')[0].innerText;
-      dataLayer.push({
-        'event' : 'view_item',
-        'title' : postTitle
-      });
-    };
-
-    var content = document.getElementsByTagName('h1')[0];
-    content.addEventListener('load', view_item);
-
+    dataLayer = [{
+      var title = document.getElementsByTagName('h1')[0].innerText;
+        'event': 'view_item',
+        'content_title': title
+      }];
   </script>
