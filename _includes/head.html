@@ -3,15 +3,12 @@
   <!-- GTM 과제 -->
   <script>
     var view_item = function(){
-      var content_title = document.querySelector('.post-title').innerText;
-      dataLayer.push({
-        'event' : 'view_item',
-        'title' : content_title
-        });
-    };
-    var postTitle = document.getElementsByTagName('article');
-    postTitle.addEventListener('click', view_item);
+      dataLayer.push = ({
+        'event' : 'view_item'
+      });
 
+    var article = document.querySelector('article');
+    article.addEventListener('click', view_item);
 </script>
     <!-- GTM 과제 -->
 
