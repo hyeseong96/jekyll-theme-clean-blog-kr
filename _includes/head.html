@@ -5,12 +5,13 @@
     var view_item = function(){
       var content_title = document.querySelector('.post-title').innerText;
       dataLayer.push({
-        'event' : 'formSubmit',
+        'event' : 'view_item',
         'title' : content_title
         });
     };
     var postTitle = document.getElementsByTagName('article');
     postTitle.addEventListener('click', view_item);
+
 </script>
     <!-- GTM 과제 -->
 
