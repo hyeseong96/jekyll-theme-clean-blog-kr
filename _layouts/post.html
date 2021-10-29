@@ -52,11 +52,17 @@ layout: default
   </article>
   {% include disqus.html %}
 
-<script>
-  var view_item = function(){
-  dataLayer.push({
-    'event' : 'view_item',
-    'pageTitle' : {{ page.title }}
-  });
-};
-</script>
+
+
+  <!-- GTM 과제 -->
+
+    <script>
+
+      <script type="text/javascript">
+        dataLayer.push({
+        'event':'view_item',
+        'title' : '{{ page.title }}'
+        });
+      </script>
+
+    <!-- GTM 과제 -->
