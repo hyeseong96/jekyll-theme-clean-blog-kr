@@ -83,18 +83,16 @@
   </script>
 {% endif %}
 
+
 <!-- GTM 과제 -->
 
   <script>
-    var view_item = function(){
-      dataLayer.push({
-        'event' : 'view_item'
-      });
-    };
 
-    var article = document.querySelectorAll('.article');
-    for (var articleName of article){
-     articleName.addEventListener('click', view_item)
-    };
+    <script type="text/javascript">
+      dataLayer.push({
+      'event':'view_item',
+      'title' : '{{ page.title }}'
+      });
+    </script>
   </script>
   <!-- GTM 과제 -->
