@@ -1,17 +1,5 @@
 <head>
 
-  <!-- GTM 과제 -->
-  <script>
-    var view_item = function(){
-      dataLayer.push = ({
-        'event' : 'view_item'
-      });
-
-    var article = document.querySelector('article');
-    article.addEventListener('click', view_item);
-</script>
-    <!-- GTM 과제 -->
-
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -20,6 +8,21 @@
   })(window,document,'script','dataLayer','GTM-N6XKG5C');</script>
   <!-- End Google Tag Manager -->
 
+  <!-- GTM 과제 -->
+  <script>
+    var view_item = function(){
+      dataLayer.push = ({
+        'event' : 'view_item'
+      });
+    };
+
+    var article = document.querySelector('article');
+    article.addEventListener('click', view_item);
+  </script>
+    <!-- GTM 과제 -->
+
+
+    
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
