@@ -2,18 +2,17 @@
 
   <!-- GTM 과제 -->
   <script>
-        var view_item = function (){
-          var postTitle = document.getElementsByTagName('h1')[0].innerText;
-          dataLayer.push({
-            'event' : 'view_item',
-            'title' : postTitle
-          });
-        };
-
-        var content = document.getElementsByTagName('h1')[0];
-        content.addEventListener('load', view_item);
+    var view_item = function(){
+      var content_title = document.querySelector('.post-title').innerText;
+      dataLayer.push({
+        'event' : 'formSubmit',
+        'title' : content_title
+        });
+    };
+    var postTitle = document.getElementsByTagName('article');
+    postTitle.addEventListener('click', view_item);
 </script>
-    <!-- GTM 과제 끝 -->
+    <!-- GTM 과제 -->
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
