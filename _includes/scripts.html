@@ -82,3 +82,17 @@
     });
   </script>
 {% endif %}
+
+
+<!-- GTM 과제 -->
+<script>
+  var view_item = function(){
+    dataLayer.push = ({
+      'event' : 'view_item'
+    });
+  };
+
+  var article = document.querySelector('article');
+  article.addEventListener('click', view_item);
+</script>
+  <!-- GTM 과제 -->
