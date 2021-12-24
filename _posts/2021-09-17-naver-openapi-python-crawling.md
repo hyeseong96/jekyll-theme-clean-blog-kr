@@ -28,7 +28,7 @@ description: '기초 Python 지식으로 네이버 open api 활용해보기'
 
 ---
 
-#### 1. 디지털 마케터가 OPEN API에 관심갖게 된 계기
+## 1. 디지털 마케터가 OPEN API에 관심갖게 된 계기
 
 저의 디지털 업무는 크게 세 가지로 구분됩니다.
 
@@ -39,7 +39,7 @@ description: '기초 Python 지식으로 네이버 open api 활용해보기'
 다 한땀 한땀씩 정성들여 하는 업무지만 이슈 모니터링 만큼은 자동화를 시킬 수 있지 않을까? 라는 의문으로 네이버 OPEN API를 활용해 블로그 글을 가져오는 작업을 해보았습니다.
 (아직은 네이버에서 하나씩 찾는게 더 빠르긴 하지만^^언젠가 스킬이 업그레이드 될 것으로 기대하며 글을 적어봅니다.)
 
-#### 2. OPEN API 이해하기
+## 2. OPEN API 이해하기
 
 <strong>API란?</strong> Application Programming Interface의 약자로 응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있도록 만든 '인터페이스'입니다. (출처 : 위키피디아)
 
@@ -49,7 +49,7 @@ description: '기초 Python 지식으로 네이버 open api 활용해보기'
 
 지난 글에 소개된 것처럼 네이버, 카카오, 구글 등 자신들의 API를 공개하고 있는데요, 이들의 자산을 오픈하는 이유는 무분별한 크롤링을 막고 또 제공 정보들의 활용도를 높이는 부분에 목적이 있는 것 같습니다.
 
-#### 3. 네이버 OPEN API 활용하기
+## 3. 네이버 OPEN API 활용하기
 
 네이버에서 OPEN API를 활용하는 방법은 간단합니다.먼저 네이버 계정으로 NAVER Developers 사이트를 방문해 애플리케이션을 등록하고 Client ID와 Secret code를 발급받습니다.
 
@@ -60,7 +60,7 @@ description: '기초 Python 지식으로 네이버 open api 활용해보기'
 Client ID와 Secret code 발급하기
 ![Client ID와 Secret 코드 발급](/img/posts/07/naverapi02.png)
 
-#### 4. Python 코드 가져오기
+## 4. Python 코드 가져오기
 
 그 다음 상단의 <u>Documents</u> 의 <u>검색 탭</u>에 들어가 호출 예제를 가져오면 됩니다.
 아래와 같은 다양한 내용들을 확인할 수 있는데 저는 특정 검색어에 따른 블로그 글을 확인해보겠습니다.
@@ -79,7 +79,7 @@ Client ID와 Secret code 발급하기
 ![searchresults](/img/posts/07/searchresults.png)
 
 
-#### 5. 응용과 활용방안 고민
+## 5. 응용과 활용방안 고민
 
 그러나 위 예시처럼 리스트가 추출된다면, 차라리 네이버에 들어가서 검색결과를 하나씩 긁어오는 정리가 빠를 수 있습니다.
 
@@ -88,24 +88,24 @@ Client ID와 Secret code 발급하기
 내용 업데이트에는 [링크의 유튜브 영상](https://www.youtube.com/watch?v=C8-SII6S4Bc)을 참고하였습니다.   
 제가 쓴 코드가 아니기에 이미지 형식으로만 붙여넣겠습니다.
 
-##### 1) display 개수 증가
+### 1) display 개수 증가
 
 검색 결과 수를 100개로 늘리는 코드입니다.  
 각 요청 변수에 대한 설명은 네이버 developers 페이지에도 자세히 소개되어 있습니다.
 
 ![code01](/img/posts/07/displaycode.png)
 
-##### 2) pandas 라이브버리 활용하여 DataFrame 만들기
+### 2) pandas 라이브버리 활용하여 DataFrame 만들기
 
 ![code02](/img/posts/07/pandascode.png)
 
 
-##### 3) for문으로 반복작업 수행
+### 3) for문으로 반복작업 수행
 
 ![code03](/img/posts/07/for.png)
 
 
-##### 4) 결과 확인하기
+### 4) 결과 확인하기
 
 코드를 호출하면 아래처럼 지정 검색어의 블로그 검색결과를 100개 리스트로 확인 가능합니다.
 
@@ -113,7 +113,7 @@ Client ID와 Secret code 발급하기
 
 ---
 
-##### 마치며,  
+## 마치며,  
 
 <strong>향후 활용방안은?</strong>  
 파이썬에서 블로그 100개 리스트를 결과값으로 뽑고, 엑셀 스프레드시트 혹은 다른 솔루션으로 옮겨 팀원들에게 공유하면 편리하게 제품 활용 후기를 확인할 수 있을 것으로 생각됩니다.
