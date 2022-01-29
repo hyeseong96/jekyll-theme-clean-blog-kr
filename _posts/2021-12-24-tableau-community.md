@@ -3,7 +3,7 @@ layout: post
 permalink: /tableau-community/
 title: 'Tableau 혼자 공부하기'
 date: 2021-12-24 21:00:00 +09:00
-feature: '/img/posts/10/tableau-community.png'
+feature: '/img/posts/10/tableau community.png'
 categories:
   - Solution
 tags:
