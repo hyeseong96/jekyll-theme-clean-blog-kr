@@ -11,7 +11,7 @@ tags:
   - tableau
   - 태블로시트
   - 데이터시각화
-description: 'Worksheet 살펴보기'
+description: 'Worksheet 살펴보기 : 데이터 연결, 기본 차트 그리기'
 ---
 
 <strong>Tableau Desktop</strong>은 태블로에서 제공하는 솔루션 중에서도 <strong>Data visualization</strong>기능을 제공합니다. 참고로 얼마 전부터 <strong>Tableau Public</strong>이라는 서비스 제공이 시작되면서, 웹 환경에 제한되지만 무료로 서비스를 체험할 수 기회가 생겼습니다.
