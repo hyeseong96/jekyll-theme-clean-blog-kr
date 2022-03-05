@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /dashboard-basic/
-title: '디지털 마케터의 대시보드 활용 사례'
+title: '디지털 마케터의 대시보드 활용 스토리'
 date: 2022-03-05 17:00:00 +09:00
 feature: '/img/posts/12/mainimage.jpg'
 categories:
@@ -13,7 +13,7 @@ tags:
   - 데이터시각화
 
 
-description: '대시보드의 필요성부터 활용법, 담당자의 마음가짐'
+description: '대시보드의 필요성, 활용법, 담당자의 마음가짐'
 ---
 
 요즘 많은 회사에서 대시보드를 만들고 활용하는 사례가 증가하고 있습니다.
